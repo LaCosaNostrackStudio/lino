@@ -289,7 +289,7 @@ p.nominalBounds = new cjs.Rectangle(-203.5,-29,407,58);
 
 	// Layer 2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(255,204,0,0.988)").s().p("EghDALjIAA3FMBCHAAAIAAXFg");
+	this.shape.graphics.f("#FF6600").s().p("EghDALjIAA3FMBCHAAAIAAXFg");
 	this.shape.setTransform(3.2,-0.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -352,6 +352,19 @@ p.nominalBounds = new cjs.Rectangle(-203.5,-29,407,58);
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(-56.1,-56.1,112.2,112.2), null);
+
+
+(lib.Symbol48_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer 1
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF6600").s().p("EhR1A89MAAAh55MCjrAAAMAAAB55g");
+	this.shape_1.setTransform(523.8,390.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Symbol48_1, new cjs.Rectangle(0,0,1047.5,780.1), null);
 
 
 (lib.Symbol12 = function(mode,startPosition,loop) {
@@ -1055,9 +1068,15 @@ p.nominalBounds = new cjs.Rectangle(-102.6,-48.4,274,166.8);
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_3).wait(5).to({y:-177.3},1).to({y:-801.3},1).wait(1));
 
 	// Layer 7
-	this.instance_1 = new lib.Symbol24();
+	this.instance_1 = new lib.Symbol48_1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(500.6,105);
+	this.instance_1.setTransform(530.6,129.7,1.149,0.724,0,0,0,523.8,390);
+	this.instance_1.alpha = 0.012;
+	new cjs.ButtonHelper(this.instance_1, 0, 1, 1);
+
+	this.instance_2 = new lib.Symbol24();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(500.6,105);
 
 	this.btnext = new lib.Symbol11_1();
 	this.btnext.parent = this;
@@ -1067,7 +1086,7 @@ p.nominalBounds = new cjs.Rectangle(-102.6,-48.4,274,166.8);
 	this.btre.parent = this;
 	this.btre.setTransform(-99.5,472.5,0.684,0.684,0,0,0,0,0.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btre},{t:this.btnext},{t:this.instance_1}]},6).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btre},{t:this.btnext},{t:this.instance_2},{t:this.instance_1}]},6).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-380.4,-798,1434.7,1418.1);
@@ -1196,7 +1215,7 @@ p.nominalBounds = new cjs.Rectangle(-97.1,-22.6,105,104);
 	// Layer 2
 	this.instance = new lib.Symbol1_1();
 	this.instance.parent = this;
-	this.instance.setTransform(152,47.4,0.899,0.899,0,0,0,122.4,19.8);
+	this.instance.setTransform(159.7,47.4,0.899,0.899,0,0,0,122.4,19.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(50));
 
@@ -1826,7 +1845,7 @@ p.nominalBounds = new cjs.Rectangle(-6,-6,323.3,108.7);
 
 	this.bt3 = new lib.Symbol12_1();
 	this.bt3.parent = this;
-	this.bt3.setTransform(668.3,52.6,0.767,0.767,0,0,0,-0.2,0);
+	this.bt3.setTransform(592.3,77.9,0.767,0.767,0,0,0,-0.2,0);
 
 	this.bt2 = new lib.Symbol12_1();
 	this.bt2.parent = this;
@@ -1855,12 +1874,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/juego emojis_atlas_.png?1652112959232", id:"juego emojis_atlas_"},
-		{src:"sounds/CORNETAPERDIO.mp3?1652112959304", id:"CORNETAPERDIO"},
-		{src:"sounds/CORNETAUNAVEZ.mp3?1652112959304", id:"CORNETAUNAVEZ"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1652112959304", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1652112959304", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1652112959304", id:"an.Video"}
+		{src:"images/juego emojis_atlas_.png?1652707579056", id:"juego emojis_atlas_"},
+		{src:"sounds/CORNETAPERDIO.mp3?1652707579152", id:"CORNETAPERDIO"},
+		{src:"sounds/CORNETAUNAVEZ.mp3?1652707579152", id:"CORNETAUNAVEZ"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1652707579152", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1652707579152", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1652707579152", id:"an.Video"}
 	],
 	preloads: []
 };
