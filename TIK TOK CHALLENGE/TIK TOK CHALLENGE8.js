@@ -373,6 +373,19 @@ p.nominalBounds = new cjs.Rectangle(-203.5,-29,407,58);
 }).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(-56.1,-56.1,112.2,112.2), null);
 
 
+(lib.Symbol48 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FF6600").s().p("EhR1A89MAAAh55MCjrAAAMAAAB55g");
+	this.shape.setTransform(523.8,390.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Symbol48, new cjs.Rectangle(0,0,1047.5,780.1), null);
+
+
 (lib.Symbol12_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -998,9 +1011,27 @@ p.nominalBounds = new cjs.Rectangle(-273,-40,523,141);
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_3).wait(5).to({y:-177.3},1).to({y:-801.3},1).wait(1));
 
 	// Layer 7
-	this.instance_1 = new lib.Symbol24();
+	this.instance_1 = new lib.Symbol48();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(500.6,105);
+	this.instance_1.setTransform(120,433.4,0.838,0.286,0,0,0,6.5,377.6);
+	this.instance_1.alpha = 0.012;
+	new cjs.ButtonHelper(this.instance_1, 0, 1, 1);
+
+	this.instance_2 = new lib.Symbol48();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(-173.2,-145.4,0.838,0.155,0,0,0,6.5,377.3);
+	this.instance_2.alpha = 0.012;
+	new cjs.ButtonHelper(this.instance_2, 0, 1, 1);
+
+	this.instance_3 = new lib.Symbol48();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(491.5,129.7,1.273,0.724,0,0,0,523.7,390);
+	this.instance_3.alpha = 0.012;
+	new cjs.ButtonHelper(this.instance_3, 0, 1, 1);
+
+	this.instance_4 = new lib.Symbol24();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(500.6,105);
 
 	this.btnext = new lib.Symbol11_1();
 	this.btnext.parent = this;
@@ -1010,7 +1041,7 @@ p.nominalBounds = new cjs.Rectangle(-273,-40,523,141);
 	this.btre.parent = this;
 	this.btre.setTransform(-99.5,472.5,0.684,0.684,0,0,0,0,0.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btre},{t:this.btnext},{t:this.instance_1}]},6).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btre},{t:this.btnext},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},6).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-380.4,-798,1434.7,1418.1);
@@ -1798,12 +1829,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/TIK TOK CHALLENGE8_atlas_.png?1651791687427", id:"TIK TOK CHALLENGE8_atlas_"},
-		{src:"sounds/CORNETAPERDIO.mp3?1651791687498", id:"CORNETAPERDIO"},
-		{src:"sounds/CORNETAUNAVEZ.mp3?1651791687498", id:"CORNETAUNAVEZ"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1651791687498", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1651791687498", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1651791687498", id:"an.Video"}
+		{src:"images/TIK TOK CHALLENGE8_atlas_.png?1652710091019", id:"TIK TOK CHALLENGE8_atlas_"},
+		{src:"sounds/CORNETAPERDIO.mp3?1652710091092", id:"CORNETAPERDIO"},
+		{src:"sounds/CORNETAUNAVEZ.mp3?1652710091092", id:"CORNETAUNAVEZ"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1652710091092", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1652710091092", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1652710091092", id:"an.Video"}
 	],
 	preloads: []
 };
